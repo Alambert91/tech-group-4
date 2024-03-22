@@ -1,0 +1,15 @@
+0000000000000000000000000000000000000000000000000000
+NOTES FOR KENIA:
+3-22-2024
+
+classes created:
+
+.nav-bar
+.container (for navbar ul & li)
+.nav-logo (img)
+.navbar-nav (ul)
+    .nav-item (for all li)
+    .signup-btn (for navbar signup/login button)
+    .nav-link (for navbar signup/login button)
+
+00000000000000000000000000000000000000000000000000000
