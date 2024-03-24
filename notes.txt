@@ -11,5 +11,7 @@ classes created:
     .nav-item (for all li)
     .signup-btn (for navbar signup/login button)
     .nav-link (for navbar signup/login button)
+.btn (for all buttons)
+.btn-regular (for standard buttons)
 
 00000000000000000000000000000000000000000000000000000
