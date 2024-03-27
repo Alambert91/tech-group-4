@@ -1,100 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* home-page-start */
 
+.nav-bar {
+  height: 100px;
+  max-height: 100px;
+  background-color: black;
+  color: white;
+  text-align: left;
+  display: block;
+  position: fixed;
+  width: 100%;
+  box-shadow:
+  0 2px 9px hsl(180deg 0% 0% / 0.3);
+}
 
+.navbar-nav {
+  display: flex;
+  text-align: right;
+  justify-content: flex-end;
+  list-style: none;
+}
 
+.nav-item {
+    letter-spacing: 1px;
+    margin: 0 10px;
+    font-size: 15px;
+}
 
-
-
-
+section {
+    padding: 100px 0;
+}
 
 /* home-page-end */
 
 /* project-section-start */
 
-
-
-
-
-
-
-
-
 /* project-section-end */
-
 
 /* testimonial-section-start */
 
-
-
-
-
-
-
-
-
 /* testimonial-section-end */
-
-
-
-
-
-
-
 
 /* project-page-start */
 
-
-
-
-
-
-
-
-
 /* project-page-end */
-
-
-
 
 /* sign-in-start */
 
-
-
-
-
-
-
-
-
 /* sign-in-end */
-
-
-
 
 /* sign-up-start */
 
-
-
-
-
-
-
-
-
 /* sign-up-end */
 
-
-
-
-
 /* about-us-start */
-
-
-
-
-
-
-
-
 
 /* about-us-end */
