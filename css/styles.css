@@ -190,10 +190,6 @@ a {
   font-size: 50px;
 }
 
-.title-block {
-}
-
-
 
 /* home-page-end */
 
@@ -220,7 +216,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f1f1f1;
-  background-image:image(/ashley-sign-on);
+  background-image:image(ashley-sign-on);
 }
 
 h1 {
