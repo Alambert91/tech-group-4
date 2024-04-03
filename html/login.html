@@ -3,10 +3,60 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sign in</title>
-    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
   </head>
   <body>
-    
+    <!-- START NAVBAR -->
+    <nav class="nav-bar">
+      <div class="container">
+        <a href="#top"
+          ><img
+            src="/images/kenia-temp-logo-1.png"
+            alt="Company Logo"
+            class="nav-logo"
+        /></a>
+        <ul class="navbar-nav">
+          <li class="nav-item"><a href="#top" class="nav-link">Home</a></li>
+          <li class="nav-item">
+            <a href="#marketing" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#testimonials" class="nav-link">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a href="#pricing" class="nav-link">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a href="/html/aboutus.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item signup-btn">
+            <a href="/html/signup.html" class="nav-link">Sign Up/Log In</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- END NAVBAR -->
+
+    <section ID="sec-con">
+      <div id="div-contact">
+        <h1>Sign In</h1>
+        <form action="action-page.php" id="form-con">
+          <input type="text" id="fname" placeholder="Username" /><br />
+          <br />
+          <input type="text" id="fname" placeholder="Password" /><br />
+        </form>
+        <div class="div-login">
+          <br />
+          <button class="button-sign">Remember This Device</button>
+          <h2>Sign up</h2>
+        </div>
+
+        <form action="action-page.php" id="form-con">
+          <input type="submit" value="submit" id="fnamen" />
+        </form>
+      </div>
+    </section>
+    <section></section>
   </body>
 </html>
