@@ -254,8 +254,7 @@ body {
   background-image:image(ashley-sign-on);
 }
 
-h1 {
-  text-align: center;
+h1.heading-home {
   margin-top: 30px;
 }
 
