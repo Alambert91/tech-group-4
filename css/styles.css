@@ -10,21 +10,19 @@
 .nav-bar {
   height: 100px;
   max-height: 100px;
-  background-color: black;
+  background-color: rgb(3, 3, 3);
   color: white;
   text-align: left;
   display: block;
   position: fixed;
   width: 100%;
-  box-shadow: 0 2px 9px hsl(180deg 0% 0% / 0.3);
+  box-shadow: 0 2px 9px hsla(0, 0%, 0%, 0.616);
 }
 
 .nav-logo {
   width: 100px;
   margin-left: 30px;
-  filter: drop-shadow(
-    3px 4px 4px hsl(0, 0%, 57%)
-  );
+  filter: drop-shadow(3px 4px 4px hsl(0, 0%, 57%));
 }
 
 .navbar-nav {
@@ -68,7 +66,7 @@ a {
 }
 
 #hero {
-  background-image: url(/images/kenia-temp-img-1.jpg);
+  background-image: url(/images/home-header.gif);
   background-size: cover;
   background-position: center;
   height: 550px;
@@ -77,12 +75,12 @@ a {
 
 .row-home {
   display: flex;
-
 }
 
 .hero-img {
-  width: 600px;
+  width: 500px;
   margin-left: 50px;
+  margin-top: 40px;
 }
 
 #hero span {
@@ -149,13 +147,9 @@ a {
   background-color: rgb(255, 0, 179);
   border-radius: 5px;
   padding: 10px 20px;
-  box-shadow:
-  0 1px 1px hsl(0deg 0% 0% / 0.075),
-  0 2px 2px hsl(0deg 0% 0% / 0.075),
-  0 4px 4px hsl(0deg 0% 0% / 0.075),
-  0 8px 8px hsl(0deg 0% 0% / 0.075),
-  0 16px 16px hsl(0deg 0% 0% / 0.075)
-;
+  box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
+    0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
+    0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075);
 }
 
 .marketing-img {
@@ -179,6 +173,11 @@ a {
   padding: 100px 0;
 }
 
+.btn-contact {
+  display: inline-flex;
+  margin-top: 30px;
+}
+
 .text-center {
   color: white;
   display: block;
@@ -188,7 +187,6 @@ a {
 .text-center h2 {
   font-size: 50px;
 }
-
 
 /* home-page-end */
 
@@ -203,7 +201,7 @@ a {
   background-color: #eee;
   border-radius: 5px;
   padding: 16px;
-  margin: 16px 0
+  margin: 16px 0;
 }
 
 .container::after {
@@ -225,12 +223,12 @@ a {
 
 @media (max-width: 500px) {
   .container {
-      text-align: center;
+    text-align: center;
   }
   .container img {
-      margin: auto;
-      float: none;
-      display: block;
+    margin: auto;
+    float: none;
+    display: block;
   }
 }
 
@@ -251,7 +249,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f1f1f1;
-  background-image:image(ashley-sign-on);
+  background-image: image(ashley-sign-on);
 }
 
 h1.heading-home {
@@ -285,7 +283,7 @@ input[type="password"] {
 }
 
 button[type="submit"] {
-  background-color: rgb(255, 0, 179) ;
+  background-color: rgb(255, 0, 179);
   color: #fff;
   border: none;
   padding: 12px 20px;
@@ -310,7 +308,9 @@ html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -337,7 +337,8 @@ html {
   padding: 0 16px;
 }
 
-.container::after, .row::after {
+.container::after,
+.row::after {
   content: "";
   clear: both;
   display: table;
