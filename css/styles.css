@@ -115,8 +115,9 @@ ul.navbar-nav > li.nav-item .signup-txt {
 }
 
 #marketing {
-  padding: 100px 100px;
+  padding: 100px 50px;
   height: 550px;
+  background-color: #fff;
 }
 
 #marketing span {
@@ -140,11 +141,20 @@ ul.navbar-nav > li.nav-item .signup-txt {
   margin-bottom: 25px;
 }
 
+.marketing-img {
+  padding-top: 40px;
+}
+
+.market-col-rt {
+  margin-left: 60px;
+}
+
 .marketing-content {
-  padding: 90px 40px;
+  padding: 80px 40px;
   margin-left: -10px;
   margin-right: 5px;
 }
+
 
 .btn-regular {
   color: rgb(0, 0, 0);
@@ -156,9 +166,6 @@ ul.navbar-nav > li.nav-item .signup-txt {
     0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075);
 }
 
-.marketing-img {
-  padding-top: 100px;
-}
 
 #testimonials {
   height: 550px;
@@ -171,7 +178,8 @@ ul.navbar-nav > li.nav-item .signup-txt {
 #call-to-action {
   height: 460px;
   background-color: rgb(0, 255, 9);
-  background-image: radial-gradient(
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.5)),
+    radial-gradient(
       at 40% 20%,
       rgb(20, 215, 65) 0px,
       transparent 50%
@@ -259,6 +267,8 @@ ul.navbar-nav > li.nav-item .signup-txt {
 
 /* sign-up-start */
 
+
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -267,7 +277,7 @@ body {
   background-image: image(ashley-sign-on);
 }
 
-h1.heading-home {
+h1 {
   margin-top: 30px;
 }
 
