@@ -87,11 +87,13 @@ ul.navbar-nav > li.nav-item .signup-txt {
   margin-top: 40px;
 }
 
-#hero span {
+
+.hero-span {
   font-size: 10px;
   text-transform: uppercase;
   letter-spacing: 0.5em;
   color: rgb(255, 255, 255);
+  position: inherit;
 }
 
 #hero h1 {
@@ -101,11 +103,12 @@ ul.navbar-nav > li.nav-item .signup-txt {
   margin-top: 10px;
 }
 
-#hero p {
+.hero-p {
   font-size: 25px;
   color: rgb(255, 255, 255);
   margin-top: 10px;
   margin-bottom: 25px;
+  margin-left: 0;
 }
 
 .hero-content {
@@ -114,13 +117,18 @@ ul.navbar-nav > li.nav-item .signup-txt {
   margin-right: 5px;
 }
 
+
 #marketing {
-  padding: 100px 50px;
+  padding: 50px;
   height: 550px;
   background-color: #fff;
 }
 
-.hero-span {
+.container-marketing {
+  margin: 20px;
+}
+
+.marketing-span {
   font-size: 10px;
   text-transform: uppercase;
   letter-spacing: 0.5em;
@@ -132,18 +140,19 @@ ul.navbar-nav > li.nav-item .signup-txt {
   font-size: 50px;
   font-weight: 200;
   color: rgb(94, 25, 94);
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
-#marketing p {
+.marketing-p {
   font-size: 25px;
   color: rgb(74, 74, 74);
   margin-top: 10px;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
+  margin-left: 0;
 }
 
 .marketing-img {
-  padding-top: 40px;
+  margin-top: 65px;
 }
 
 .market-col-rt {
@@ -151,9 +160,7 @@ ul.navbar-nav > li.nav-item .signup-txt {
 }
 
 .marketing-content {
-  padding: 80px 40px;
-  margin-left: -10px;
-  margin-right: 5px;
+  margin-top: 100px;
 }
 
 .btn-regular {
@@ -213,14 +220,35 @@ margin-top: 90px;
   margin-left: 20px;
 }
 
-
 .testimonial-name-title small, p {
   margin-left: 20px;
   margin-top: 10px;
 }
+
 #pricing {
   height: 550px;
+  padding: 50px;
 }
+
+.container-pricing {
+  margin-top: 50px;
+}
+
+.pricing-p {
+  margin-top: -5px;
+}
+
+.pricing-box {
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px;
+}
+
+li {
+  list-style-type: none;
+}
+
 
 #call-to-action {
   height: 460px;
