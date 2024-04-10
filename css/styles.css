@@ -167,9 +167,13 @@ ul.navbar-nav > li.nav-item .signup-txt {
 }
 
 #testimonials {
-  height: 350px;
+  height: 600px;
   display: block;
-  margin: 400px 100px;
+  padding: 30px;
+}
+
+.container-testimonials {
+margin-top: 90px;
 }
 
 .title-block {
@@ -202,6 +206,18 @@ ul.navbar-nav > li.nav-item .signup-txt {
   border-radius: 50px;
 }
 
+.testimonial-name {
+  position: inherit;
+  color: black;
+  font-size: 25px;
+  margin-left: 20px;
+}
+
+
+.testimonial-name-title small, p {
+  margin-left: 20px;
+  margin-top: 10px;
+}
 #pricing {
   height: 550px;
 }

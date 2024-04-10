@@ -10,10 +10,11 @@
     <!-- START NAVBAR -->
     <nav class="nav-bar">
       <div class="container-nav">
-        <a href="#top"><img
-          src="images/kfna-tech-logo.png"
-          alt="Company Logo"
-          class="nav-logo"
+        <a href="#top"
+          ><img
+            src="images/kfna-tech-logo.png"
+            alt="Company Logo"
+            class="nav-logo"
         /></a>
         <ul class="navbar-nav">
           <li class="nav-item"><a href="#top" class="nav-link">Home</a></li>
@@ -26,9 +27,13 @@
           <li class="nav-item">
             <a href="#pricing" class="nav-link">Pricing</a>
           </li>
-          <li class="nav-item"><a href="html/aboutus.html" class="nav-link">About</a></li>
+          <li class="nav-item">
+            <a href="html/aboutus.html" class="nav-link">About</a>
+          </li>
           <li class="nav-item signup-btn">
-            <a href="html/signup.html" class="nav-link signup-txt">Sign Up/Log In</a>
+            <a href="html/signup.html" class="nav-link signup-txt"
+              >Sign Up/Log In</a
+            >
           </li>
         </ul>
       </div>
@@ -45,7 +50,9 @@
           <div class="hero-content">
             <span class="hero-span">THIS IS THE HERO SECTION</span>
             <h1 class="heading-home">
-              Protecting Your Digital Frontier: <br><b>Secure Today, Thrive Tomorrow</b>
+              Protecting Your Digital Frontier: <br /><b
+                >Secure Today, Thrive Tomorrow</b
+              >
             </h1>
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa
@@ -64,15 +71,18 @@
         <div class="row-home">
           <div class="market-col-lt">
             <div class="marketing-section-img">
-              <img src="images/marketing-img.gif" class="marketing-img"></a>
+              <img src="images/marketing-img.gif" class="marketing-img" />
             </div>
           </div>
           <div class="market-col-rt">
             <div class="marketing-content">
               <span>Don't Become a Statistic</span>
-              <h1 class="heading-home">Protect Your Business from Cyber Attacks</h1>
+              <h1 class="heading-home">
+                Protect Your Business from Cyber Attacks
+              </h1>
               <p>
-                Introducing Our Cybersecurity Portfolio: A Proven Arsenal Against Digital Threats 
+                Introducing Our Cybersecurity Portfolio: A Proven Arsenal
+                Against Digital Threats
               </p>
               <a href="html/projects.html" class="btn btn-regular">Projects</a>
             </div>
@@ -84,26 +94,31 @@
 
     <!-- START TESTIMONIALS SECTION-->
     <section id="testimonials">
-
       <div class="container-testimonials">
         <div class="title-block">
           <h2>Unlocking Trust</h2>
-          <p>Discover Our Proven Track Record and Unwavering Commitment to Safeguarding Your Digital Assets</p>
+          <p>
+            Discover Our Proven Track Record and Unwavering Commitment to
+            Safeguarding Your Digital Assets
+          </p>
         </div>
         <div class="row-home">
           <div class="test-lt">
             <div class="testimonial-box">
               <div class="row-home personal-info">
-        <img class="testimonial-pic" src="images/testimonial-lt.png" alt="Avatar" style="width:90px">
-        <div class="profile-pic review-one">
-
-        </div>
+                <img
+                  class="testimonial-pic"
+                  src="images/testimonial-lt.png"
+                  alt="Avatar"
+                  style="width: 90px"
+                />
+                <div class="profile-pic review-one"></div>
                 <div class="testimonial-name-title">
-                  <h6><span>Chris Fox.</span></h6>
-                  <small>CEO at Mighty Schools.</small>
+                  <h6><span class="testimonial-name">Chris Fox</span></h6>
+                  <small>CEO at Mighty Schools</small>
+                  <p>John Doe saved us from a web disaster.</p>
                 </div>
               </div>
-              <p>John Doe saved us from a web disaster.</p>
             </div>
           </div>
 
@@ -111,152 +126,159 @@
             <div class="testimonial-box">
               <div class="row-home personal-info">
                 <div class="profile-pic review-two">
-                  <img class="testimonial-pic" src="images/testimonial-rt.png" alt="Avatar" style="width:90px">
+                  <img
+                    class="testimonial-pic"
+                    src="images/testimonial-rt.png"
+                    alt="Avatar"
+                    style="width: 90px"
+                  />
                 </div>
                 <div class="testimonial-name-title">
-                  <h6><span>Rebecca Flex.</span></h6>
+                  <h6><span class="testimonial-name">Rebecca Flex</span></h6>
                   <small>CEO at Company</small>
+                  <p>No one is better than John Doe.</p>
                 </div>
               </div>
-              <p>No one is better than John Doe.</p>
             </div>
           </div>
-          
         </div>
       </div>
-
     </section>
 
     <!-- END TESTIMONIALS SECTION-->
 
-<!-- ABOUT US SECTION -->
+    <!-- ABOUT US SECTION -->
 
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-  body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-  }
-  
-  html {
-    box-sizing: border-box;
-  }
-  
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
-  
-  .column {
-    float: left;
-    width: 33.3%;
-    margin-bottom: 16px;
-    padding: 0 8px;
-  }
-  
-  .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    margin: 8px;
-  }
-  
-  .about-section {
-    padding: 50px;
-    text-align: center;
-    background-color: #474e5d;
-    color: white;
-  }
-  
-  .container {
-    padding: 0 16px;
-  }
-  
-  .container::after, .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  
-  .title {
-    color: grey;
-  }
-  
-  .button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-  }
-  
-  .button:hover {
-    background-color: #555;
-  }
-  
-  @media screen and (max-width: 650px) {
-    .column {
-      width: 100%;
-      display: block;
-    }
-  }
-  </style>
-  </head>
-  <body>
-  
-  <div class="about-section">
-    <h1>About Us Page</h1>
-    <p>Some text about who we are and what we do.</p>
-    <p>Resize the browser window to see that this page is responsive by the way.</p>
-  </div>
-  
-  <h2 style="text-align:center">Our Team</h2>
-  <div class="row">
-    <div class="column">
-      <div class="card">
-        <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
-        <div class="container">
-          <h2>Jane Doe</h2>
-          <p class="title">CEO & Founder</p>
-          <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-          <p>jane@example.com</p>
-          <p><button class="button">Contact</button></p>
-        </div>
-      </div>
-    </div>
-  
-    <div class="column">
-      <div class="card">
-        <img src="/w3images/team2.jpg" alt="Mike" style="width:100%">
-        <div class="container">
-          <h2>Mike Ross</h2>
-          <p class="title">Art Director</p>
-          <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-          <p>mike@example.com</p>
-          <p><button class="button">Contact</button></p>
-        </div>
-      </div>
-    </div>
-    
-    <div class="column">
-      <div class="card">
-        <img src="/w3images/team3.jpg" alt="John" style="width:100%">
-        <div class="container">
-          <h2>John Doe</h2>
-          <p class="title">Designer</p>
-          <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-          <p>john@example.com</p>
-          <p><button class="button">Contact</button></p>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  </body>
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <style>
+        body {
+          font-family: Arial, Helvetica, sans-serif;
+          margin: 0;
+        }
 
-  <!-- END ABOUT US SECTION -->
+        html {
+          box-sizing: border-box;
+        }
+
+        *,
+        *:before,
+        *:after {
+          box-sizing: inherit;
+        }
+
+        .column {
+          float: left;
+          width: 33.3%;
+          margin-bottom: 16px;
+          padding: 0 8px;
+        }
+
+        .card {
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          margin: 8px;
+        }
+
+        .about-section {
+          padding: 50px;
+          text-align: center;
+          background-color: #474e5d;
+          color: white;
+        }
+
+        .container {
+          padding: 0 16px;
+        }
+
+        .container::after,
+        .row::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+
+        .title {
+          color: grey;
+        }
+
+        .button {
+          border: none;
+          outline: 0;
+          display: inline-block;
+          padding: 8px;
+          color: white;
+          background-color: #000;
+          text-align: center;
+          cursor: pointer;
+          width: 100%;
+        }
+
+        .button:hover {
+          background-color: #555;
+        }
+
+        @media screen and (max-width: 650px) {
+          .column {
+            width: 100%;
+            display: block;
+          }
+        }
+      </style>
+    </head>
+    <body>
+      <div class="about-section">
+        <h1>About Us Page</h1>
+        <p>Some text about who we are and what we do.</p>
+        <p>
+          Resize the browser window to see that this page is responsive by the
+          way.
+        </p>
+      </div>
+
+      <h2 style="text-align: center">Our Team</h2>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="/w3images/team1.jpg" alt="Jane" style="width: 100%" />
+            <div class="container">
+              <h2>Jane Doe</h2>
+              <p class="title">CEO & Founder</p>
+              <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+              <p>jane@example.com</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="card">
+            <img src="/w3images/team2.jpg" alt="Mike" style="width: 100%" />
+            <div class="container">
+              <h2>Mike Ross</h2>
+              <p class="title">Art Director</p>
+              <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+              <p>mike@example.com</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="card">
+            <img src="/w3images/team3.jpg" alt="John" style="width: 100%" />
+            <div class="container">
+              <h2>John Doe</h2>
+              <p class="title">Designer</p>
+              <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+              <p>john@example.com</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
+
+    <!-- END ABOUT US SECTION -->
 
     <!-- START PRICING SECTION-->
     <section id="pricing">
