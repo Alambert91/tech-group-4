@@ -270,7 +270,7 @@ ul.navbar-nav > li.nav-item .signup-txt {
   height: 100%;
   width: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(/images/purple1.gif);
+    url(../images/purple1.gif);
   background-position: center;
   background-size: cover;
   position: absolute;
@@ -281,7 +281,7 @@ ul.navbar-nav > li.nav-item .signup-txt {
   position: relative;
   margin: 6% auto;
   background: transparent;
-  padding: 5px;
+  padding: 15px;
   overflow: hidden;
 }
 .button-box {
@@ -359,12 +359,12 @@ span {
 }
 #login {
   left: 50px;
-  background-image: url(/images/Swirl1.gif);
+  background-image: url(../images/rainbow2.gif);
   background-size: contain;
 }
 #register {
   left: 450px;
-  background-image: url(/images/rainbow3.png);
+  background-image: url(../images/rainbow3.png);
   background-size: contain;
 }
 body {
