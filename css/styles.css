@@ -87,7 +87,6 @@ ul.navbar-nav > li.nav-item .signup-txt {
   margin-top: 40px;
 }
 
-
 .hero-span {
   font-size: 10px;
   text-transform: uppercase;
@@ -116,7 +115,6 @@ ul.navbar-nav > li.nav-item .signup-txt {
   margin-left: 20px;
   margin-right: 5px;
 }
-
 
 #marketing {
   padding: 50px;
@@ -179,7 +177,7 @@ ul.navbar-nav > li.nav-item .signup-txt {
 }
 
 .container-testimonials {
-margin-top: 90px;
+  margin-top: 90px;
 }
 
 .title-block {
@@ -260,7 +258,6 @@ margin-top: 90px;
   font-size: 15px;
 }
 
-
 .pricing-p {
   margin-top: -5px;
 }
@@ -275,7 +272,6 @@ margin-top: 90px;
 li {
   list-style-type: none;
 }
-
 
 #call-to-action {
   height: 460px;
@@ -430,36 +426,34 @@ input:focus {
     box-shadow: 0 0 5px rgba(red, green, blue, alpha),
       inset 0 0 5px rgba(red, green, blue, alpha);
   }
-  100%{
+  100% {
     border-color: #6f6;
     box-shadow: 0 0 20px rgba(red, green, blue, alpha);
   }
 }
-button{
-    margin-top: 30px;
-    border-radius: 5px!important;
-    font-weight: 600;
-    letter-spacing: 1px;
-    cursor: pointer;
+button {
+  margin-top: 30px;
+  border-radius: 5px !important;
+  font-weight: 600;
+  letter-spacing: 1px;
+  cursor: pointer;
 }
-button:hover{
-    color: #339933;
-    border: 1px solid #339933;
-    box-shadow: 0 0 5px rgba(0,255,0,.3),
-                0 0 10px rgba(0,255,0,.2),
-                0 0 15px rgba(0,255,0,.1),
-                0 2px 0 black;
+button:hover {
+  color: #339933;
+  border: 1px solid #339933;
+  box-shadow: 0 0 5px rgba(0, 255, 0, 0.3), 0 0 10px rgba(0, 255, 0, 0.2),
+    0 0 15px rgba(0, 255, 0, 0.1), 0 2px 0 black;
 }
-.link{
-    margin-top: 25px;
-    color: #868686;
+.link {
+  margin-top: 25px;
+  color: #868686;
 }
-.link a{
-    color: #339933;
-    text-decoration: none;
+.link a {
+  color: #339933;
+  text-decoration: none;
 }
-.link a:hover{
-    text-decoration: underline;
+.link a:hover {
+  text-decoration: underline;
 }
 
 /* sign-in-end */
@@ -549,10 +543,11 @@ html {
 }
 
 .about-section {
-  padding: 50px;
   text-align: center;
   background-color: #474e5d;
   color: white;
+  height: 550px;
+  padding: 100px 0;
 }
 
 .container {
