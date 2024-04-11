@@ -138,7 +138,6 @@ ul.navbar-nav > li.nav-item .signup-txt {
 
 #marketing h1 {
   font-size: 50px;
-  font-weight: 200;
   color: rgb(94, 25, 94);
   margin-top: 15px;
 }
@@ -220,7 +219,11 @@ margin-top: 90px;
   margin-left: 20px;
 }
 
-.testimonial-name-title small, p {
+.testimonial-name-title small {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.testimonial-p {
   margin-left: 20px;
   margin-top: 10px;
 }
@@ -233,6 +236,30 @@ margin-top: 90px;
 .container-pricing {
   margin-top: 50px;
 }
+
+/* h2.pricing-title {
+  font-size: 50px;
+} */
+
+.row-pricing {
+  margin-top: -5px;
+}
+
+.demo {
+  font-size: 30px;
+  text-align: center;
+}
+
+.price-icon {
+  text-align: center;
+  font-size: 30px;
+}
+
+.price,
+.demo-time {
+  font-size: 15px;
+}
+
 
 .pricing-p {
   margin-top: -5px;
