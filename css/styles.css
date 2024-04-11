@@ -611,6 +611,10 @@ html {
 }
 
 .about-section {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/010/379/325/non_2x/abstract-digital-cyber-background-big-data-code-matrix-futuristic-digital-art-style-illustration-design-technology-concept-free-photo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   text-align: center;
   background-color: #474e5d;
   color: white;
