@@ -138,7 +138,6 @@ ul.navbar-nav > li.nav-item .signup-txt {
 
 #marketing h1 {
   font-size: 50px;
-  color: rgb(94, 25, 94);
   margin-top: 15px;
 }
 
@@ -229,7 +228,7 @@ margin-top: 90px;
 }
 
 #pricing {
-  height: 550px;
+  height: 600px;
   padding: 50px;
 }
 
@@ -243,16 +242,21 @@ margin-top: 90px;
 
 .row-pricing {
   margin-top: -5px;
+  display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
 }
 
 .demo {
   font-size: 30px;
   text-align: center;
+  color: rgb(219, 213, 213);
 }
 
 .price-icon {
   text-align: center;
   font-size: 30px;
+  color: rgb(101, 101, 101);
+  margin-bottom: 10px;
 }
 
 .price,
@@ -266,14 +270,43 @@ margin-top: 90px;
 }
 
 .pricing-box {
+  background-color: #292b2c;
   border: 2px solid black;
   border-radius: 10px;
   margin: 10px;
   padding: 20px;
 }
 
-li {
+.fa-circle-check {
+  margin-right: 10px;
+  color: rgb(101, 101, 101)
+}
+
+
+
+.pricing-li {
   list-style-type: none;
+  line-height: 25px;
+  margin-left: 50px;
+  color: white;
+}
+
+.btn-buy,
+.btn-demo,
+.btn-int {
+  border: 2px solid #0275d8;
+  background-color: #0275d8;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 10px;
+  box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
+    0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
+    0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075);
+}
+
+.pricing-btn {
+margin-top: 25px;
+margin-bottom: 15px;
 }
 
 
@@ -307,6 +340,41 @@ li {
 
 .text-center h2 {
   font-size: 50px;
+}
+
+.container-footer {
+  padding: 40px;
+}
+
+footer {
+  height: 300px;
+  background-color: black;
+}
+.row-footer {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.footer-ul {
+  margin-top: 20px;
+}
+
+.footer-li {
+  line-height: 30px;
+}
+
+.footer-li > a {
+  color: rgb(0, 255, 13);
+}
+
+.footer-contact {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: rgb(0, 255, 13);
+}
+
+.footer-title {
+color: white;
 }
 
 /* home-page-end */
