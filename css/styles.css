@@ -266,111 +266,108 @@ ul.navbar-nav > li.nav-item .signup-txt {
 /* project-page-end */
 
 /* sign-in-start */
-.hero {
-  height: 100%;
-  width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(../images/purple1.gif);
-  background-position: center;
-  background-size: cover;
-  position: absolute;
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins" sans-serif;
 }
-.form-box {
-  width: 380px;
-  height: 480px;
-  position: relative;
-  margin: 6% auto;
-  background: transparent;
-  padding: 5px;
-  overflow: hidden;
-}
-.button-box {
-  width: 220px;
-  margin: 35px auto;
-  position: relative;
-  box-shadow: 0 0 20px 9px;
-  border-radius: 30px;
-}
-.toggle-btn {
-  padding: 10px 30px;
-  cursor: pointer;
-  background: transparent;
-  border: 0;
-  outline: none;
-  position: relative;
-}
-#btn {
-  top: 0;
-  left: 0;
-  position: absolute;
-  width: 110px;
-  height: 100%;
-  background: linear-gradient(to right, #ff105f, #ffad06);
-  border-radius: 30px;
-  transition: 0.5s;
-}
-.social-icons {
-  margin: 30px auto;
+body.login-body {
+  display: flex;
+  height: 100vh;
   text-align: center;
+  align-items: center;
+  justify-content: center;
+  background: url(../images/login-img.webp);
 }
-.social-icons img {
-  width: 30px;
-  margin: 0 12px;
-  box-shadow: 0 0 20px 0 #7f7f7f3d;
-  cursor: pointer;
-  border-radius: 50%;
+.login-form {
+  position: relative;
+  width: 370px;
+  height: auto;
+  background: #1b1b1b;
+  padding: 40px 35px 60px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: inset 0 0 1px #272727;
 }
-.input-group {
-  top: 180px;
-  position: absolute;
-  width: 280px;
-  transition: 0.5s;
+.text {
+  font-size: 30px;
+  color: #c7c7c7;
+  font-weight: 600;
+  letter-spacing: 2px;
 }
-.input-field {
+.login-form {
+  margin-top: 40px;
+}
+form .field {
+  height: 50px;
+  width: 270px;
+  color: #868686;
+  font-size: 20px;
+  line-height: 50px;
+  border: 1px solid #444;
+  border-right: none;
+  border-radius: 5px 0 0 5px;
+  background: linear-gradient(#333, #222);
+}
+.field input,
+form button {
+  height: 50px;
   width: 100%;
-  padding: 10px 0;
-  margin: 5px 0;
-  border-left: 0;
-  border-top: 0;
-  border-right: 0;
-  border-bottom: 1px solid #999;
   outline: none;
-  background: transparent;
+  font-size: 19px;
+  color: #868686;
+  padding: 0 15px;
+  border-radius: 0 5px 5px 0;
+  border: 1px solid #444;
+  caret-color: #339933;
+  background: linear-gradient(#333, 222);
 }
-.submit-btn {
-  width: 85%;
-  padding: 10px 30px;
-  cursor: pointer;
-  display: block;
-  margin: auto;
-  background: linear-gradient(to right, #ff105f, #ffad06);
-  border: 0;
-  outline: none;
-  border-radius: 30px;
+input:focus {
+  color: #339933;
+  box-shadow: 0 0 5px rgba(red, green, blue, alpha);
+  background: linear-gradient(#333933, #222922);
+  animation: glow 0.8s ease-out infinite alternate;
 }
-.check-box {
-  margin: 30px 10px 30px 0;
+@keyframes glow {
+  0% {
+    border-color: #339933;
+    box-shadow: 0 0 5px rgba(red, green, blue, alpha),
+      inset 0 0 5px rgba(red, green, blue, alpha);
+  }
+  100%{
+    border-color: #6f6;
+    box-shadow: 0 0 20px rgba(red, green, blue, alpha);
+  }
 }
-span {
-  color: aquamarine;
-  font-size: 12px;
-  bottom: 68px;
-  position: absolute;
+button{
+    margin-top: 30px;
+    border-radius: 5px!important;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
 }
-#login {
-  left: 50px;
-  background-image: url(../images/rainbow2.gif);
-  background-size: contain;
+button:hover{
+    color: #339933;
+    border: 1px solid #339933;
+    box-shadow: 0 0 5px rgba(0,255,0,.3),
+                0 0 10px rgba(0,255,0,.2),
+                0 0 15px rgba(0,255,0,.1),
+                0 2px 0 black;
 }
-#register {
-  left: 450px;
-  background-image: url(../images/rainbow3.png);
-  background-size: contain;
+.link{
+    margin-top: 25px;
+    color: #868686;
 }
-body {
-  /* background-image: url(images/1_Z-O29a9er6hIA3teHgOLBQ.gif);
-  background-size: cover; */
+.link a{
+    color: #339933;
+    text-decoration: none;
 }
+.link a:hover{
+    text-decoration: underline;
+}
+
 /* sign-in-end */
 
 /* sign-up-start */
