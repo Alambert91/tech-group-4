@@ -22,10 +22,6 @@
 .nav-logo {
   width: 100px;
   margin-left: 30px;
-<<<<<<< HEAD
-  filter: drop-shadow(3px 4px 4px hsl(0, 0%, 57%));
-=======
->>>>>>> main
 }
 
 .navbar-nav {
@@ -44,7 +40,7 @@
   text-align: right;
 }
 
-.container-home {
+.container-nav {
   width: 100%;
   /* max-width: 1100px; */
   display: flex;
@@ -91,11 +87,13 @@ ul.navbar-nav > li.nav-item .signup-txt {
   margin-top: 40px;
 }
 
-#hero span {
+
+.hero-span {
   font-size: 10px;
   text-transform: uppercase;
   letter-spacing: 0.5em;
   color: rgb(255, 255, 255);
+  position: inherit;
 }
 
 #hero h1 {
@@ -105,11 +103,12 @@ ul.navbar-nav > li.nav-item .signup-txt {
   margin-top: 10px;
 }
 
-#hero p {
+.hero-p {
   font-size: 25px;
   color: rgb(255, 255, 255);
   margin-top: 10px;
   margin-bottom: 25px;
+  margin-left: 0;
 }
 
 .hero-content {
@@ -118,35 +117,41 @@ ul.navbar-nav > li.nav-item .signup-txt {
   margin-right: 5px;
 }
 
+
 #marketing {
-  padding: 100px 50px;
+  padding: 50px;
   height: 550px;
   background-color: #fff;
 }
 
-#marketing span {
+.container-marketing {
+  margin: 20px;
+}
+
+.marketing-span {
   font-size: 10px;
   text-transform: uppercase;
   letter-spacing: 0.5em;
   color: rgb(74, 74, 74);
+  position: inherit;
 }
 
 #marketing h1 {
   font-size: 50px;
-  font-weight: 200;
   color: rgb(94, 25, 94);
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
-#marketing p {
+.marketing-p {
   font-size: 25px;
   color: rgb(74, 74, 74);
   margin-top: 10px;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
+  margin-left: 0;
 }
 
 .marketing-img {
-  padding-top: 40px;
+  margin-top: 65px;
 }
 
 .market-col-rt {
@@ -154,11 +159,8 @@ ul.navbar-nav > li.nav-item .signup-txt {
 }
 
 .marketing-content {
-  padding: 80px 40px;
-  margin-left: -10px;
-  margin-right: 5px;
+  margin-top: 100px;
 }
-
 
 .btn-regular {
   color: rgb(0, 0, 0);
@@ -170,24 +172,116 @@ ul.navbar-nav > li.nav-item .signup-txt {
     0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075);
 }
 
-
 #testimonials {
-  height: 550px;
+  height: 600px;
+  display: block;
+  padding: 30px;
+}
+
+.container-testimonials {
+margin-top: 90px;
+}
+
+.title-block {
+  text-align: center;
+}
+
+.title-block h2 {
+  font-size: 70px;
+}
+
+.title-block p {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.test-lt,
+.test-rt {
+  background-color: rgba(141, 141, 141, 0.221);
+  border-radius: 5px;
+  margin: 16px 20px 16px 20px;
+  width: 50%;
+  padding: 60px;
+  box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
+    0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
+    0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075);
+}
+
+.testimonial-pic {
+  border-radius: 50px;
+}
+
+.testimonial-name {
+  position: inherit;
+  color: black;
+  font-size: 25px;
+  margin-left: 20px;
+}
+
+.testimonial-name-title small {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.testimonial-p {
+  margin-left: 20px;
+  margin-top: 10px;
 }
 
 #pricing {
   height: 550px;
+  padding: 50px;
 }
+
+.container-pricing {
+  margin-top: 50px;
+}
+
+/* h2.pricing-title {
+  font-size: 50px;
+} */
+
+.row-pricing {
+  margin-top: -5px;
+}
+
+.demo {
+  font-size: 30px;
+  text-align: center;
+}
+
+.price-icon {
+  text-align: center;
+  font-size: 30px;
+}
+
+.price,
+.demo-time {
+  font-size: 15px;
+}
+
+
+.pricing-p {
+  margin-top: -5px;
+}
+
+.pricing-box {
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px;
+}
+
+li {
+  list-style-type: none;
+}
+
 
 #call-to-action {
   height: 460px;
   background-color: rgb(0, 255, 9);
   background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.5)),
-    radial-gradient(
-      at 40% 20%,
-      rgb(20, 215, 65) 0px,
-      transparent 50%
-    ),
+    radial-gradient(at 40% 20%, rgb(20, 215, 65) 0px, transparent 50%),
     radial-gradient(at 80% 0%, rgb(53, 255, 31) 0px, transparent 50%),
     radial-gradient(at 0% 50%, rgb(131, 16, 193) 0px, transparent 50%),
     radial-gradient(at 80% 50%, rgb(146, 9, 220) 0px, transparent 50%),
@@ -371,8 +465,6 @@ button:hover{
 /* sign-in-end */
 
 /* sign-up-start */
-
-
 
 body {
   font-family: Arial, sans-serif;
