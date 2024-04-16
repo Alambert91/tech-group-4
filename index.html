@@ -12,10 +12,15 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+    href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    rel="stylesheet"
+  />
+
   </head>
   <body>
     <!-- START NAVBAR -->
-    <nav class="nav-bar">
+    <!-- <nav class="nav-bar">
       <div class="container-nav">
         <a href="#top"
           ><img
@@ -44,7 +49,36 @@
           </li>
         </ul>
       </div>
-    </nav>
+    </nav> -->
+
+    <header class="header">
+      <img src="/images/white-txt-logo.png" alt="kfna logo" class="nav-logo" />
+
+      <input type="checkbox" id="check" />
+      <label for="check" class="icons">
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <i class="bx bx-x" id="close-icon"></i>
+      </label>
+
+      <nav class="navbar">
+        <a href="#top" style="--i:0;">Home</a>
+        <a href="#marketing" style="--i:1;">Projects</a>
+        <a href="#testimonials" style="--i:2;">Testimonials</a>
+        <a href="#pricing" style="--i:3;">Pricing</a>
+        <a href="/html/aboutus.html" style="--i:4;">About Us</a>
+        <a href="html/login.html" class="login-btn" style="--i:5;">Log In</a>
+      </nav>
+    </header>
+
+
+
+
+
+
+
+
+
+
     <!-- END NAVBAR -->
 
     <!-- START HERO SECTION-->

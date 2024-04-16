@@ -5,39 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign Up Page</title>
     <link rel="stylesheet" href="../css/styles.css">
+    <link
+    href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    rel="stylesheet"
+  />
   </head>
   <body>
     <!-- START NAVBAR -->
-    <nav class="nav-bar">
-      <div class="container-nav">
-        <a href="../index.html"
-          ><img
-            src="../images/kfna-tech-logo.png"
-            alt="Company Logo"
-            class="nav-logo"
-        /></a>
-        <ul class="navbar-nav">
-          <li class="nav-item"><a href="../index.html" class="nav-link">Home</a></li>
-          <li class="nav-item">
-            <a href="../index.html#marketing" class="nav-link">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a href="../index#testimonials" class="nav-link">Testimonials</a>
-          </li>
-          <li class="nav-item">
-            <a href="../index#pricing" class="nav-link">Pricing</a>
-          </li>
-          <li class="nav-item">
-            <a href="aboutus.html" class="nav-link">About</a>
-          </li>
-          <li class="nav-item signup-btn">
-            <a href="login.html" class="nav-link signup-txt"
-              >Sign Up/Log In</a
-            >
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <header class="header">
+      <img src="/images/white-txt-logo.png" alt="kfna logo" class="nav-logo" />
+
+      <input type="checkbox" id="check" />
+      <label for="check" class="icons">
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <i class="bx bx-x" id="close-icon"></i>
+      </label>
+
+      <nav class="navbar">
+        <a href="../index.html" style="--i:0;">Home</a>
+        <a href="projects.html" style="--i:1;">Projects</a>
+        <a href="../index.html#testimonials" style="--i:2;">Testimonials</a>
+        <a href="../index.html#pricing" style="--i:3;">Pricing</a>
+        <a href="aboutus.html" style="--i:4;">About Us</a>
+        <a href="login.html" class="login-btn" style="--i:5;">Log In</a>
+      </nav>
+    </header>
 
     <br />
     <br />
