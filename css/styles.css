@@ -254,7 +254,6 @@ ul.navbar-nav > li.nav-item .signup-txt {
   text-align: center;
 }
 
-
 button.contact-btn {
   width: 100%;
   border: none;
@@ -268,7 +267,7 @@ button.contact-btn {
 .selfie {
   height: 200px;
   width: 250px;
-  object-fit:cover;
+  object-fit: cover;
   object-position: 50% 28%;
   filter: grayscale();
 }
@@ -276,7 +275,7 @@ button.contact-btn {
 img.natalia {
   height: 200px;
   width: 250px;
-  object-fit:cover;
+  object-fit: cover;
   object-position: 40% 2%;
   filter: grayscale();
 }
@@ -329,8 +328,8 @@ img.natalia {
   margin: 10px;
   padding: 20px;
   box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
-  0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
-  0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075);
+    0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
+    0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075);
 }
 
 .fa-circle-check {
@@ -432,6 +431,124 @@ footer {
 
 /* HOMEPAGE BREAKPOINTS */
 
+@media only screen and (max-width: 600px) {
+  #hero {
+    padding: 70px 0 0 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.888), rgba(0, 0, 0, 0.5)),
+      url(/images/home-footer.png);
+  }
+
+  #hero h1 {
+    font-size: 40px;
+  }
+
+  .hero-p {
+    font-size: 15px;
+  }
+
+  #marketing {
+      padding: 30px;
+      text-align: center;
+      margin-top: 100px;
+      min-height: 450px;
+  }
+
+  .market-col-lt {
+    display: none;
+  }
+
+  .marketing-content{
+    margin-top: 0px;
+
+  }
+
+ #marketing h1 {
+    font-size: 35px;
+  }
+
+  .marketing-p {
+    font-size: 10px;
+  }
+
+  .market-col-rt {
+    margin-left: 0;
+  }
+
+  .marketing-img {
+    display: none;
+  }
+
+  .title-block h2 {
+    font-size: 40px;
+  }
+
+  .row-home {
+    display: block;
+  }
+
+  .container-testimonials {
+    margin-top: 0;
+  }
+
+  .testimonial-box {
+    text-align: center;
+  }
+
+  .test-lt,
+  .test-rt {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+
+  .about-header {
+    font-size: 40px;
+  }
+
+  .card-row {
+    display: block;
+  }
+
+  .card-column {
+    margin-bottom: 1rem;
+    max-width: fit-content;
+    margin-inline: auto;
+  }
+
+  #pricing {
+    padding: 10px;
+  }
+
+  div.title-block > p.pricing-p {
+    font-size: 15px;
+  }
+
+  .pricing-li {
+    font-size: smaller;
+    max-width: fit-content;
+    margin-inline: auto;
+  }
+
+  .col-md-3 {
+    display: none;
+  }
+
+  .contact-block {
+    display: block;
+  }
+
+  footer {
+    min-height: 0;
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+
+
+
+}
 
 /* home-page-end */
 
@@ -646,8 +763,8 @@ html {
 }
 
 .card img {
-max-width: 100%;
-height: 200px;
+  max-width: 100%;
+  height: 200px;
 }
 
 .row {
