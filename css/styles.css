@@ -9,6 +9,7 @@
 .nav-bar {
   height: 100px;
   max-height: 100px;
+  z-index: 1;
   background-color: rgb(3, 3, 3);
   color: white;
   text-align: left;
@@ -220,9 +221,64 @@ ul.navbar-nav > li.nav-item .signup-txt {
   margin-left: 20px;
   margin-top: 10px;
 }
+
 .testimonial-p {
   margin-left: 20px;
   margin-top: 10px;
+}
+
+#about-sec {
+  height: 550px;
+}
+
+.about-header {
+  text-align: center;
+}
+
+.about-header {
+  font-size: 70px;
+}
+
+.card-row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-card {
+  width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: 280px;
+}
+
+.about-container {
+  text-align: center;
+}
+
+
+button.contact-btn {
+  width: 100%;
+  border: none;
+  height: 40px;
+  background-color: black;
+  color: white;
+  font-weight: lighter;
+  letter-spacing: 3px;
+}
+
+.selfie {
+  height: 200px;
+  width: 250px;
+  object-fit:cover;
+  object-position: 50% 28%;
+  filter: grayscale();
+}
+
+img.natalia {
+  height: 200px;
+  width: 250px;
+  object-fit:cover;
+  object-position: 40% 2%;
+  filter: grayscale();
 }
 
 #pricing {
@@ -373,6 +429,9 @@ footer {
 .footer-title {
   color: white;
 }
+
+/* HOMEPAGE BREAKPOINTS */
+
 
 /* home-page-end */
 
